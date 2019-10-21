@@ -1,16 +1,16 @@
 # Social-Network_Graph-Link-Prediction
 
 Problem statement:
-Given a directed social graph, have to predict missing links to recommend users (Link Prediction in graph)
+Given a directed social graph, have to predict missing links to recommend users (Link Prediction in graph)<br>
 
-Data Overview
+Data Overview<br>
 Taken data from facebook's recruting challenge on kaggle https://www.kaggle.com/c/FacebookRecruiting
-data contains two columns source and destination eac edge in graph
+data contains two columns source and destination eac edge in graph<br>
 
-- Data columns (total 2 columns):  
-- source_node         int64  
-- destination_node    int64  
-Mapping the problem into supervised learning problem:
+- Data columns (total 2 columns):  <br>
+- source_node         int64  <br>
+- destination_node    int64  <br>
+Mapping the problem into supervised learning problem:<br>
 Generated training samples of good and bad links from given directed graph and for each link got some features like no of followers, is he followed back, page rank, katz score, adar index, some svd fetures of adj matrix, some weight features etc. and trained ml model based on these features to predict link.<br>
 
 Some reference papers and videos :<br>
